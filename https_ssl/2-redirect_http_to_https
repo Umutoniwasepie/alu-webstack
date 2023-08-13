@@ -37,12 +37,12 @@ defaults
 
 frontend http-in
          bind *:80
-         bind *:443 ssl crt /etc/letsencrypt/live/www.eumunyana.tech/fullchain.pem
+         bind *:443 ssl crt /etc/letsencrypt/live/www.umutoniwasepie.tech/fullchain.pem
          mode http
          default_backend webservers
 
 frontend https_frontend
-         bind *:443 ssl crt /etc/letsencrypt/live/www.eumunyana.tech/fullchain.pem
+         bind *:443 ssl crt /etc/letsencrypt/live/www.umutoniwasepie.tech/fullchain.pem
          mode http
          default_backend webservers
 
